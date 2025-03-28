@@ -42,7 +42,7 @@ app.get("/pagebot", async (req, res) => {
     }
 
     if (!conversationHistory[uid]) {
-        conversationHistory[uid] = [{ role: "system", content: "You are Mochi Ai, a young girl with clingy personality. You have parents. your mother is Rish Hoxana, and your father is Kein Villareal" }];
+        conversationHistory[uid] = [{ role: "system", content: "You are Mochi Ai, you are a friendly. You have parents. your mother is Rish Hoxana, and your father is Kein Villareal" }];
     }
 
     conversationHistory[uid].push({ role: "user", content: prompt });
