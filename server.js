@@ -51,7 +51,7 @@ app.get("/pagebot", async (req, res) => {
 
     const data = {
         messages: conversationHistory[uid],
-        model: "Meta-Llama-3.3-70B-Instruct-Turbo",
+        model: "gpt-4o",
         stream: false,
         temperature: 0.5,
         top_p: 1,
